@@ -9,9 +9,7 @@ class Kerdes {
 
     }
 
-    art
-
     getTipp(){
         return this.#tipp
     }
-}
+}export default Kerdes
