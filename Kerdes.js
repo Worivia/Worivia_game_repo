@@ -3,7 +3,9 @@ class Kerdes {
     #input;
     #tipp;
 
+    
+
     getTipp(){
         return this.#tipp
     }
-};
+}
