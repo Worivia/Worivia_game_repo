@@ -1,7 +1,6 @@
-import Kerdes from "./Kerdes.js";
+import Jatekter from "./Jatekter.js";
 
 
 $(function(){
-    const art = $("article");
-    const kerdes = new Kerdes(art);
+
 });

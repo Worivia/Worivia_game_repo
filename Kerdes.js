@@ -17,6 +17,8 @@ class Kerdes {
         this.submitElem.on("click", ()=>{
             this.adatokOssze();
         });
+
+
     }
     
     adatokOssze(){
