@@ -3,9 +3,11 @@ class Kerdes {
     #input;
     #tipp;
 
-    
+    constructor(){
+
+    }
 
     getTipp(){
         return this.#tipp
     }
-}
+}export default Kerdes
