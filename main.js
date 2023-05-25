@@ -1,4 +1,4 @@
-import Jatekter from "./Jatekter.js";
+import Jatekter from "../worivia/game/Jatekter.js";
 
 
 $(function(){

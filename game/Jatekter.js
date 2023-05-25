@@ -1,4 +1,4 @@
-import Kerdes from "./Kerdes.js"
+import Kerdes from "../game/Kerdes.js"
 
 class Jatekter{
 

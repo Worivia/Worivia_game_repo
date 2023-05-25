@@ -1,4 +1,4 @@
-import { LISTA } from "./data.js";
+import { LISTA } from "../data";
 
 class Kerdes {
     #elem;
