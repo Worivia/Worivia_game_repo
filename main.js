@@ -1,6 +1,8 @@
-import Jatekter from "../worivia/game/Jatekter.js";
+import Jatekter from "./js/Jatekter.js";
 
 
 $(function(){
-    new Jatekter();
+    $(".button_f").on("click", ()=>{
+        new Jatekter();
+    })
 });
