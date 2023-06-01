@@ -1,4 +1,4 @@
-import Kerdes from "./Kerdes.js";
+import Kerdes from "../js/Kerdes.js";
 import { LISTA } from "../data.js";
 
 class Jatekter {
@@ -31,4 +31,6 @@ class Jatekter {
 
     }
 
-} export default Jatekter
+} 
+
+export default Jatekter;

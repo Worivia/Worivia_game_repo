@@ -46,4 +46,6 @@ class Kerdes {
     }
 
 
-}export default Kerdes
+}
+
+export default Kerdes;
