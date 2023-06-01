@@ -46,6 +46,6 @@ class Kerdes {
     }
 
 
-}
+} 
 
 export default Kerdes;

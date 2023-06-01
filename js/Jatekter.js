@@ -1,4 +1,5 @@
 import Kerdes from "../js/Kerdes.js";
+import About from "./About.js";
 import { LISTA } from "../data.js";
 
 class Jatekter {
