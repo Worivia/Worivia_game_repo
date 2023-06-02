@@ -21,12 +21,6 @@ article{
     border-radius: 20px;
 }
 
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 600px;
-}
 .buttons{
     display: flex;
     flex-direction: column;
@@ -46,18 +40,62 @@ h3{
     font-size: 70px;
 }
 main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
     position: relative;
+    padding: 10%;
 }
+
 .pont{
     position: absolute;
     color: white;
     top: 5px;
     left: 5px;
 }
+
 .cont{
     margin: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.accont{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(20px);
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.bg{
+    background: url(miscs/bg-bigger.png);
+    width: 320px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.mc{
+    background: url(miscs/mc-bigger.png);
+    width: 60px;
+    height: 60px;
+}
+
+.enemy{
+    background: url(miscs/enemy-bigger.png);
+    width: 60px;
+    height: 60px;
 }
