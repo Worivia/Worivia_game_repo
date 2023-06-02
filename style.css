@@ -80,22 +80,45 @@ main{
 }
 
 .bg{
-    background: url(miscs/bg-bigger.png);
-    width: 320px;
-    height: 120px;
+    margin: 15px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    backdrop-filter: blur(20px);
+    color: rgba(212, 148, 9, 0.815);
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid rgba(80, 57, 7);
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .mc{
-    background: url(miscs/mc-bigger.png);
-    width: 60px;
-    height: 60px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    color: rgb(9, 240, 29);
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid rgba(11, 141, 7, 0.904);
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .enemy{
-    background: url(miscs/enemy-bigger.png);
-    width: 60px;
-    height: 60px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    color: rgb(238, 7, 7);
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid rgba(160, 4, 4, 0.753);
+    border-radius: 20px;
+    padding: 15px;
 }
+
