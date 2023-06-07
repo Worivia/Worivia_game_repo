@@ -19,7 +19,9 @@ class Jatekter {
         $(window).on("submit", (event) => {
             console.log(event.detail)
             if (event.detail.getTipp() == this.lista[id].valasz) {
-                this.pont++;
+                this.pontNoveles()
+            }else{
+                this.pontCsokkentes()
             }
             console.log(this.pont);
         })
@@ -28,7 +30,11 @@ class Jatekter {
 
 
     pontNoveles() {
-        
+        this.pont++;
+    }
+
+    pontCsokkentes(){
+        this.pont--;
     }
 
 } 
